@@ -1,0 +1,3342 @@
+Cryostat Fill Cron Job Log
+=====================================================
+
+Starting. Current time = 2023-05-05-17:20:01
+rm: cannot remove '/home/ccd/cryostat/Log_Files/CronStillRunning': No such file or directory
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-05-17:20:03
+Traceback (most recent call last):
+  File "fill_cron.py", line 56, in <module>
+    print("Done. Elapsed time = "+elapsed)
+TypeError: cannot concatenate 'str' and 'float' objects
+Starting. Current time = 2023-05-05-17:30:01
+rm: cannot remove '/home/ccd/cryostat/Log_Files/CronStillRunning': No such file or directory
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-05-17:30:03
+Traceback (most recent call last):
+  File "fill_cron.py", line 56, in <module>
+    print("Done. Elapsed time = "+elapsed)
+TypeError: cannot concatenate 'str' and 'float' objects
+Starting. Current time = 2023-05-05-17:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-05-17:40:03
+Done. Elapsed time = 1.44659018517
+**************************************************************************
+
+You are logging into the NEW Physauth.
+
+UPDATE 2021-12-28: Use your CAMPUS USERNAME AND PASSPHRASE
+to log in to Physauth. There is no longer a separate "Physauth password".
+
+Also, Physauth no longer uses a separate home directory. Any data you
+had stored in your old Physauth home dir is now at:
+/nfs/physauth-oldhome/YourUsername
+
+For more information see https://ithelp.physics.ucdavis.edu
+
+**************************************************************************
+Permission denied, please try again.
+Permission denied, please try again.
+polin@physauth.physics.ucdavis.edu: Permission denied (publickey,password).
+lost connection
+Starting. Current time = 2023-05-05-17:50:02
+Cron Job still running. Quitting
+
+Traceback (most recent call last):
+  File "fill_cron.py", line 21, in <module>
+    Plots.CheckIfStillRunning() # Make sure there isn't another job still running.
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 153, in CheckIfStillRunning
+    file = open('CronStillRunning','r')
+IOError: [Errno 2] No such file or directory: 'CronStillRunning'
+Starting. Current time = 2023-05-05-18:00:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.27, Temp_B = -99.97
+
+Current time = 2023-05-05-18:00:03
+Done. Elapsed time = 1.12910413742
+Starting. Current time = 2023-05-05-18:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.25, Temp_B = -99.97
+
+Current time = 2023-05-05-18:10:02
+Done. Elapsed time = 1.12225198746
+Starting. Current time = 2023-05-05-18:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.25, Temp_B = -99.97
+
+Current time = 2023-05-05-18:20:02
+Done. Elapsed time = 1.12609887123
+Starting. Current time = 2023-05-05-18:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.25, Temp_B = -99.97
+
+Current time = 2023-05-05-18:30:02
+Done. Elapsed time = 1.11584210396
+Starting. Current time = 2023-05-05-18:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.25, Temp_B = -99.97
+
+Current time = 2023-05-05-18:40:02
+Done. Elapsed time = 1.12145781517
+Starting. Current time = 2023-05-05-18:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.25, Temp_B = -99.97
+
+Current time = 2023-05-05-18:50:03
+Done. Elapsed time = 1.12688302994
+Starting. Current time = 2023-05-05-19:00:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.26, Temp_B = -99.97
+
+Current time = 2023-05-05-19:00:03
+Done. Elapsed time = 1.11872506142
+Starting. Current time = 2023-05-05-19:10:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.26, Temp_B = -99.97
+
+Current time = 2023-05-05-19:10:03
+Done. Elapsed time = 1.11781978607
+Starting. Current time = 2023-05-05-19:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.26, Temp_B = -99.97
+
+Current time = 2023-05-05-19:20:02
+Done. Elapsed time = 1.11743211746
+Starting. Current time = 2023-05-05-19:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.26, Temp_B = -99.97
+
+Current time = 2023-05-05-19:30:02
+Done. Elapsed time = 1.12941384315
+Starting. Current time = 2023-05-05-19:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.26, Temp_B = -99.97
+
+Current time = 2023-05-05-19:40:02
+Done. Elapsed time = 1.18250584602
+Starting. Current time = 2023-05-05-19:43:08
+/home/ccd/.local/lib/python2.7/site-packages/matplotlib/cbook/deprecation.py:107: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  warnings.warn(message, mplDeprecation, stacklevel=1)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.27, Temp_B = -99.97
+
+Current time = 2023-05-05-19:43:09
+Done. Elapsed time = 1.13946795464
+Starting. Current time = 2023-05-05-19:44:34
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.27, Temp_B = -99.97
+
+Current time = 2023-05-05-19:44:35
+Done. Elapsed time = 1.18967580795
+Starting. Current time = 2023-05-05-19:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.27, Temp_B = -99.97
+
+Current time = 2023-05-05-19:50:03
+Done. Elapsed time = 1.18577599525
+Starting. Current time = 2023-05-05-20:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.26, Temp_B = -99.97
+
+Current time = 2023-05-05-20:00:03
+Done. Elapsed time = 1.19362688065
+Starting. Current time = 2023-05-05-20:10:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.26, Temp_B = -99.97
+
+Current time = 2023-05-05-20:10:03
+Done. Elapsed time = 1.1777100563
+Starting. Current time = 2023-05-05-20:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.26, Temp_B = -99.97
+
+Current time = 2023-05-05-20:20:02
+Done. Elapsed time = 1.20018911362
+Starting. Current time = 2023-05-05-20:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.26, Temp_B = -99.97
+
+Current time = 2023-05-05-20:30:02
+Done. Elapsed time = 1.19033479691
+Starting. Current time = 2023-05-05-20:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-05-20:40:02
+Done. Elapsed time = 1.19160699844
+Starting. Current time = 2023-05-05-20:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-05-20:50:02
+Done. Elapsed time = 1.16385912895
+Starting. Current time = 2023-05-05-21:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-05-21:00:03
+Done. Elapsed time = 1.18010497093
+Starting. Current time = 2023-05-05-21:10:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-05-21:10:03
+Done. Elapsed time = 1.18486380577
+Starting. Current time = 2023-05-05-21:20:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-05-21:20:03
+Done. Elapsed time = 1.18999505043
+Starting. Current time = 2023-05-05-21:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-05-21:30:02
+Done. Elapsed time = 1.17470479012
+Starting. Current time = 2023-05-05-21:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-05-21:40:02
+Done. Elapsed time = 1.19302010536
+Starting. Current time = 2023-05-05-21:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-05-21:50:02
+Done. Elapsed time = 1.18740296364
+Starting. Current time = 2023-05-05-22:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Traceback (most recent call last):
+  File "fill_cron.py", line 46, in <module>
+    Plots.MakeTemperaturePlot(TempTime, Temp_A, Temp_B, filltimes, filldurations, dewartimes)
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 161, in MakeTemperaturePlot
+    plt.tight_layout(0,0.03,1,0.95)
+  File "/home/ccd/.local/lib/python2.7/site-packages/matplotlib/pyplot.py", line 1352, in tight_layout
+    fig.tight_layout(pad=pad, h_pad=h_pad, w_pad=w_pad, rect=rect)
+  File "/home/ccd/.local/lib/python2.7/site-packages/matplotlib/figure.py", line 2307, in tight_layout
+    pad=pad, h_pad=h_pad, w_pad=w_pad, rect=rect)
+  File "/home/ccd/.local/lib/python2.7/site-packages/matplotlib/tight_layout.py", line 360, in get_tight_layout_figure
+    left, bottom, right, top = rect
+TypeError: 'float' object is not iterable
+Starting. Current time = 2023-05-05-22:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-05-22:10:03
+Done. Elapsed time = 1.23395109177
+Starting. Current time = 2023-05-05-22:20:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-05-22:20:03
+Done. Elapsed time = 1.2328441143
+Starting. Current time = 2023-05-05-22:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-05-22:30:02
+Done. Elapsed time = 1.21931099892
+Starting. Current time = 2023-05-05-22:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-05-22:40:02
+Done. Elapsed time = 1.22932100296
+Starting. Current time = 2023-05-05-22:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-05-22:50:02
+Done. Elapsed time = 1.25060796738
+Starting. Current time = 2023-05-05-23:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-05-23:00:02
+Done. Elapsed time = 1.22807884216
+Starting. Current time = 2023-05-05-23:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-05-23:10:03
+Done. Elapsed time = 1.22947001457
+Starting. Current time = 2023-05-05-23:20:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-05-23:20:03
+Done. Elapsed time = 1.20699810982
+Starting. Current time = 2023-05-05-23:30:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-05-23:30:03
+Done. Elapsed time = 1.23842811584
+Starting. Current time = 2023-05-05-23:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-05-23:40:02
+Done. Elapsed time = 1.23074889183
+Starting. Current time = 2023-05-05-23:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-05-23:50:02
+Done. Elapsed time = 1.22888207436
+Starting. Current time = 2023-05-06-00:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-06-00:00:02
+Done. Elapsed time = 1.22571611404
+Starting. Current time = 2023-05-06-00:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-06-00:10:03
+Done. Elapsed time = 1.22918915749
+Starting. Current time = 2023-05-06-00:20:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-06-00:20:03
+Done. Elapsed time = 1.24285006523
+Starting. Current time = 2023-05-06-00:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-06-00:30:02
+Done. Elapsed time = 1.23206019402
+Starting. Current time = 2023-05-06-00:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-06-00:40:02
+Done. Elapsed time = 1.22278189659
+Starting. Current time = 2023-05-06-00:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-06-00:50:02
+Done. Elapsed time = 1.22606015205
+Starting. Current time = 2023-05-06-01:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-06-01:00:02
+Done. Elapsed time = 1.21928596497
+Starting. Current time = 2023-05-06-01:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-06-01:10:03
+Done. Elapsed time = 1.22118592262
+Starting. Current time = 2023-05-06-01:20:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-06-01:20:03
+Done. Elapsed time = 1.21818995476
+Starting. Current time = 2023-05-06-01:30:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-06-01:30:03
+Done. Elapsed time = 1.21646809578
+Starting. Current time = 2023-05-06-01:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-06-01:40:02
+Done. Elapsed time = 1.21370601654
+Starting. Current time = 2023-05-06-01:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-06-01:50:02
+Done. Elapsed time = 1.2315299511
+Starting. Current time = 2023-05-06-02:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-06-02:00:02
+Done. Elapsed time = 1.25154590607
+Starting. Current time = 2023-05-06-02:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-06-02:10:02
+Done. Elapsed time = 1.23229503632
+Starting. Current time = 2023-05-06-02:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-06-02:20:03
+Done. Elapsed time = 1.23255801201
+Starting. Current time = 2023-05-06-02:30:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-06-02:30:03
+Done. Elapsed time = 1.21625089645
+Starting. Current time = 2023-05-06-02:40:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-06-02:40:03
+Done. Elapsed time = 1.23078799248
+Starting. Current time = 2023-05-06-02:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-06-02:50:02
+Done. Elapsed time = 1.22338795662
+Starting. Current time = 2023-05-06-03:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-06-03:00:02
+Done. Elapsed time = 1.22145199776
+Starting. Current time = 2023-05-06-03:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-06-03:10:02
+Done. Elapsed time = 1.21986889839
+Starting. Current time = 2023-05-06-03:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-06-03:20:03
+Done. Elapsed time = 1.22222089767
+Starting. Current time = 2023-05-06-03:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-06-03:30:03
+Done. Elapsed time = 1.23095083237
+Starting. Current time = 2023-05-06-03:40:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-06-03:40:03
+Done. Elapsed time = 1.22943496704
+Starting. Current time = 2023-05-06-03:50:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-06-03:50:03
+Done. Elapsed time = 1.22473287582
+Starting. Current time = 2023-05-06-04:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-06-04:00:02
+Done. Elapsed time = 1.2250430584
+Starting. Current time = 2023-05-06-04:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.18, Temp_B = -99.97
+
+Current time = 2023-05-06-04:10:02
+Done. Elapsed time = 1.23092198372
+Starting. Current time = 2023-05-06-04:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-06-04:20:02
+Done. Elapsed time = 1.22753214836
+Starting. Current time = 2023-05-06-04:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-06-04:30:03
+Done. Elapsed time = 1.22048282623
+Starting. Current time = 2023-05-06-04:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.18, Temp_B = -99.97
+
+Current time = 2023-05-06-04:40:03
+Done. Elapsed time = 1.21791410446
+Starting. Current time = 2023-05-06-04:50:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.18, Temp_B = -99.97
+
+Current time = 2023-05-06-04:50:03
+Done. Elapsed time = 1.23109197617
+Starting. Current time = 2023-05-06-05:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.17, Temp_B = -99.97
+
+Current time = 2023-05-06-05:00:02
+Done. Elapsed time = 1.22983193398
+Starting. Current time = 2023-05-06-05:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.17, Temp_B = -99.97
+
+Current time = 2023-05-06-05:10:02
+Done. Elapsed time = 1.22432088852
+Starting. Current time = 2023-05-06-05:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.17, Temp_B = -99.97
+
+Current time = 2023-05-06-05:20:02
+Done. Elapsed time = 1.23927211761
+Starting. Current time = 2023-05-06-05:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.17, Temp_B = -99.97
+
+Current time = 2023-05-06-05:30:02
+Done. Elapsed time = 1.2291431427
+Starting. Current time = 2023-05-06-05:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.16, Temp_B = -99.97
+
+Current time = 2023-05-06-05:40:03
+Done. Elapsed time = 1.21913599968
+Starting. Current time = 2023-05-06-05:50:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.16, Temp_B = -99.97
+
+Current time = 2023-05-06-05:50:03
+Done. Elapsed time = 1.23979783058
+Starting. Current time = 2023-05-06-06:00:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.16, Temp_B = -99.97
+
+Current time = 2023-05-06-06:00:03
+Done. Elapsed time = 1.22764110565
+Starting. Current time = 2023-05-06-06:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.15, Temp_B = -99.97
+
+Current time = 2023-05-06-06:10:02
+Done. Elapsed time = 1.22888302803
+Starting. Current time = 2023-05-06-06:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.15, Temp_B = -99.97
+
+Current time = 2023-05-06-06:20:02
+Done. Elapsed time = 1.22657799721
+Starting. Current time = 2023-05-06-06:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.14, Temp_B = -99.97
+
+Current time = 2023-05-06-06:30:02
+Done. Elapsed time = 1.2326631546
+Starting. Current time = 2023-05-06-06:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.13, Temp_B = -99.97
+
+Current time = 2023-05-06-06:40:03
+Done. Elapsed time = 1.23205804825
+Starting. Current time = 2023-05-06-06:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.13, Temp_B = -99.97
+
+Current time = 2023-05-06-06:50:03
+Done. Elapsed time = 1.22945404053
+Starting. Current time = 2023-05-06-07:00:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.13, Temp_B = -99.97
+
+Current time = 2023-05-06-07:00:03
+Done. Elapsed time = 1.29229784012
+Starting. Current time = 2023-05-06-07:10:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.12, Temp_B = -99.97
+
+Current time = 2023-05-06-07:10:03
+Done. Elapsed time = 1.23799300194
+Starting. Current time = 2023-05-06-07:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-06-07:20:02
+Done. Elapsed time = 1.22842311859
+Starting. Current time = 2023-05-06-07:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Traceback (most recent call last):
+  File "fill_cron.py", line 46, in <module>
+    Plots.MakeTemperaturePlot(TempTime, Temp_A, Temp_B, filltimes, filldurations, dewartimes)
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 145, in MakeTemperaturePlot
+    ax7.plot(Time,timebetweendewar,'yo',label='Time Between Dewar Fills')
+  File "/home/ccd/.local/lib/python2.7/site-packages/matplotlib/__init__.py", line 1870, in inner
+    return func(ax, *args, **kwargs)
+  File "/home/ccd/.local/lib/python2.7/site-packages/matplotlib/axes/_axes.py", line 1528, in plot
+    for line in self._get_lines(*args, **kwargs):
+  File "/home/ccd/.local/lib/python2.7/site-packages/matplotlib/axes/_base.py", line 406, in _grab_next_args
+    for seg in self._plot_args(this, kwargs):
+  File "/home/ccd/.local/lib/python2.7/site-packages/matplotlib/axes/_base.py", line 383, in _plot_args
+    x, y = self._xy_from_xy(x, y)
+  File "/home/ccd/.local/lib/python2.7/site-packages/matplotlib/axes/_base.py", line 242, in _xy_from_xy
+    "have shapes {} and {}".format(x.shape, y.shape))
+ValueError: x and y must have same first dimension, but have shapes (152,) and (0,)
+Starting. Current time = 2023-05-06-07:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-06-07:40:02
+Done. Elapsed time = 1.22800993919
+Starting. Current time = 2023-05-06-07:50:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-06-07:50:03
+Done. Elapsed time = 1.2443318367
+Starting. Current time = 2023-05-06-08:00:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-06-08:00:03
+Done. Elapsed time = 1.24031114578
+Starting. Current time = 2023-05-06-08:10:02
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-06-08:10:03
+Done. Elapsed time = 1.23336195946
+Starting. Current time = 2023-05-06-08:20:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-06-08:20:02
+Done. Elapsed time = 1.23004984856
+Starting. Current time = 2023-05-06-08:30:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.09, Temp_B = -99.97
+
+Current time = 2023-05-06-08:30:02
+Done. Elapsed time = 1.22799682617
+Starting. Current time = 2023-05-06-08:40:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.09, Temp_B = -99.97
+
+Current time = 2023-05-06-08:40:02
+Done. Elapsed time = 1.23672318459
+Starting. Current time = 2023-05-06-08:50:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.09, Temp_B = -99.97
+
+Current time = 2023-05-06-08:50:02
+Done. Elapsed time = 1.22758507729
+Starting. Current time = 2023-05-06-09:00:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-06-09:00:03
+Done. Elapsed time = 1.22225093842
+Starting. Current time = 2023-05-06-09:10:02
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-06-09:10:03
+Done. Elapsed time = 1.23485302925
+Starting. Current time = 2023-05-06-09:20:02
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-06-09:20:03
+Done. Elapsed time = 1.20758986473
+Starting. Current time = 2023-05-06-09:30:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-06-09:30:02
+Done. Elapsed time = 1.21897506714
+Starting. Current time = 2023-05-06-09:40:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-06-09:40:02
+Done. Elapsed time = 1.22713398933
+Starting. Current time = 2023-05-06-09:50:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-06-09:50:02
+Done. Elapsed time = 1.22005200386
+Starting. Current time = 2023-05-06-10:00:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-06-10:00:03
+Done. Elapsed time = 1.21505594254
+Starting. Current time = 2023-05-06-10:10:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-06-10:10:03
+Done. Elapsed time = 1.22339391708
+Starting. Current time = 2023-05-06-10:20:02
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.09, Temp_B = -99.97
+
+Current time = 2023-05-06-10:20:03
+Done. Elapsed time = 1.26084303856
+Starting. Current time = 2023-05-06-10:30:02
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.09, Temp_B = -99.97
+
+Current time = 2023-05-06-10:30:03
+Done. Elapsed time = 1.23571896553
+Starting. Current time = 2023-05-06-10:40:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.08, Temp_B = -99.97
+
+Current time = 2023-05-06-10:40:02
+Done. Elapsed time = 1.22224497795
+Starting. Current time = 2023-05-06-10:50:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.06, Temp_B = -99.97
+
+Current time = 2023-05-06-10:50:02
+Done. Elapsed time = 1.22850990295
+Starting. Current time = 2023-05-06-11:00:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.07, Temp_B = -99.97
+
+Current time = 2023-05-06-11:00:02
+Done. Elapsed time = 1.239123106
+Starting. Current time = 2023-05-06-11:10:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.06, Temp_B = -99.97
+
+Current time = 2023-05-06-11:10:03
+Done. Elapsed time = 1.22400379181
+Starting. Current time = 2023-05-06-11:20:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.99, Temp_B = -99.97
+
+Successfully initiated Cryostat fill at 2023-05-06-11:20:05
+Terminated fill loop. Elapsed = 105.079409, Overflow temp = -22.003800, Valve state = Open
+
+Successfully terminated Cryostat fill at 2023-05-06-11:21:52
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Current time = 2023-05-06-11:21:53
+Done. Elapsed time = 111.329728127
+Starting. Current time = 2023-05-06-11:30:02
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.26, Temp_B = -99.97
+
+Current time = 2023-05-06-11:30:03
+Done. Elapsed time = 1.20876598358
+Starting. Current time = 2023-05-06-11:40:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.24, Temp_B = -99.98
+
+Current time = 2023-05-06-11:40:02
+Done. Elapsed time = 1.25021100044
+Starting. Current time = 2023-05-06-11:50:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.24, Temp_B = -99.97
+
+Current time = 2023-05-06-11:50:02
+Done. Elapsed time = 1.21963715553
+Starting. Current time = 2023-05-06-12:00:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.24, Temp_B = -99.97
+
+Current time = 2023-05-06-12:00:02
+Done. Elapsed time = 1.22198200226
+Starting. Current time = 2023-05-06-12:10:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.24, Temp_B = -99.97
+
+Current time = 2023-05-06-12:10:02
+Done. Elapsed time = 1.23029494286
+Starting. Current time = 2023-05-06-12:20:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.24, Temp_B = -99.97
+
+Current time = 2023-05-06-12:20:03
+Done. Elapsed time = 1.2223200798
+Starting. Current time = 2023-05-06-12:30:02
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.24, Temp_B = -99.97
+
+Current time = 2023-05-06-12:30:03
+Done. Elapsed time = 1.25578403473
+Starting. Current time = 2023-05-06-12:40:02
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.25, Temp_B = -99.97
+
+Current time = 2023-05-06-12:40:03
+Done. Elapsed time = 1.23081207275
+Starting. Current time = 2023-05-06-12:50:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.25, Temp_B = -99.97
+
+Current time = 2023-05-06-12:50:02
+Done. Elapsed time = 1.22947096825
+Starting. Current time = 2023-05-06-13:00:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.25, Temp_B = -99.97
+
+Current time = 2023-05-06-13:00:02
+Done. Elapsed time = 1.22660803795
+Starting. Current time = 2023-05-06-13:10:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.26, Temp_B = -99.97
+
+Current time = 2023-05-06-13:10:02
+Done. Elapsed time = 1.22422099113
+Starting. Current time = 2023-05-06-13:20:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.26, Temp_B = -99.97
+
+Current time = 2023-05-06-13:20:03
+Done. Elapsed time = 1.22689795494
+Starting. Current time = 2023-05-06-13:30:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.25, Temp_B = -99.97
+
+Current time = 2023-05-06-13:30:03
+Done. Elapsed time = 1.21907901764
+Starting. Current time = 2023-05-06-13:40:02
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.25, Temp_B = -99.97
+
+Current time = 2023-05-06-13:40:03
+Done. Elapsed time = 1.21372079849
+Starting. Current time = 2023-05-06-13:50:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.25, Temp_B = -99.97
+
+Current time = 2023-05-06-13:50:02
+Done. Elapsed time = 1.21043992043
+Starting. Current time = 2023-05-06-14:00:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.25, Temp_B = -99.97
+
+Current time = 2023-05-06-14:00:02
+Done. Elapsed time = 1.22734498978
+Starting. Current time = 2023-05-06-14:10:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.24, Temp_B = -99.97
+
+Current time = 2023-05-06-14:10:02
+Done. Elapsed time = 1.23310995102
+Starting. Current time = 2023-05-06-14:20:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.24, Temp_B = -99.97
+
+Current time = 2023-05-06-14:20:02
+Done. Elapsed time = 1.20745897293
+Starting. Current time = 2023-05-06-14:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.24, Temp_B = -99.97
+
+Current time = 2023-05-06-14:30:03
+Done. Elapsed time = 1.22483801842
+Starting. Current time = 2023-05-06-14:40:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.24, Temp_B = -99.97
+
+Current time = 2023-05-06-14:40:03
+Done. Elapsed time = 1.28668785095
+Starting. Current time = 2023-05-06-14:50:02
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.24, Temp_B = -99.97
+
+Current time = 2023-05-06-14:50:03
+Done. Elapsed time = 1.25718212128
+Starting. Current time = 2023-05-06-15:00:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.24, Temp_B = -99.97
+
+Current time = 2023-05-06-15:00:02
+Done. Elapsed time = 1.25125002861
+Starting. Current time = 2023-05-06-15:10:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.24, Temp_B = -99.97
+
+Current time = 2023-05-06-15:10:02
+Done. Elapsed time = 1.25522398949
+Starting. Current time = 2023-05-06-15:20:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.24, Temp_B = -99.97
+
+Current time = 2023-05-06-15:20:02
+Done. Elapsed time = 1.23254609108
+Starting. Current time = 2023-05-06-15:30:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.24, Temp_B = -99.97
+
+Current time = 2023-05-06-15:30:03
+Done. Elapsed time = 1.25645494461
+Starting. Current time = 2023-05-06-15:40:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-06-15:40:03
+Done. Elapsed time = 1.25607705116
+Starting. Current time = 2023-05-06-15:50:02
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-06-15:50:03
+Done. Elapsed time = 1.26307702065
+Starting. Current time = 2023-05-06-16:00:02
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-06-16:00:03
+Done. Elapsed time = 1.27071809769
+Starting. Current time = 2023-05-06-16:10:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-06-16:10:02
+Done. Elapsed time = 1.24743294716
+Starting. Current time = 2023-05-06-16:20:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-06-16:20:02
+Done. Elapsed time = 1.25523686409
+Starting. Current time = 2023-05-06-16:30:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-06-16:30:02
+Done. Elapsed time = 1.25234293938
+Starting. Current time = 2023-05-06-16:40:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-06-16:40:03
+Done. Elapsed time = 1.25763010979
+Starting. Current time = 2023-05-06-16:50:02
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-06-16:50:03
+Done. Elapsed time = 1.26855421066
+Starting. Current time = 2023-05-06-17:00:02
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-06-17:00:03
+Done. Elapsed time = 1.26664400101
+Starting. Current time = 2023-05-06-17:10:01
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/ccd/.local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-06-17:10:02
+Done. Elapsed time = 1.25687503815
+Starting. Current time = 2023-05-06-17:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-06-17:20:02
+Done. Elapsed time = 1.2559659481
+Starting. Current time = 2023-05-06-17:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-06-17:30:02
+Done. Elapsed time = 1.27071499825
+Starting. Current time = 2023-05-06-17:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-06-17:40:03
+Done. Elapsed time = 1.2616109848
+Starting. Current time = 2023-05-06-17:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-06-17:50:03
+Done. Elapsed time = 1.25768709183
+Starting. Current time = 2023-05-06-18:00:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-06-18:00:03
+Done. Elapsed time = 1.26754403114
+Starting. Current time = 2023-05-06-18:10:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-06-18:10:03
+Done. Elapsed time = 1.27275586128
+Starting. Current time = 2023-05-06-18:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-06-18:20:02
+Done. Elapsed time = 1.25806117058
+Starting. Current time = 2023-05-06-18:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-06-18:30:02
+Done. Elapsed time = 1.27323818207
+Starting. Current time = 2023-05-06-18:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-06-18:40:02
+Done. Elapsed time = 1.24531912804
+Starting. Current time = 2023-05-06-18:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-06-18:50:03
+Done. Elapsed time = 1.26541018486
+Starting. Current time = 2023-05-06-19:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-06-19:00:03
+Done. Elapsed time = 1.249532938
+Starting. Current time = 2023-05-06-19:10:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-06-19:10:03
+Done. Elapsed time = 1.2484858036
+Starting. Current time = 2023-05-06-19:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-06-19:20:02
+Done. Elapsed time = 1.24836492538
+Starting. Current time = 2023-05-06-19:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-06-19:30:02
+Done. Elapsed time = 1.24715900421
+Starting. Current time = 2023-05-06-19:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-06-19:40:02
+Done. Elapsed time = 1.25720095634
+Starting. Current time = 2023-05-06-19:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-06-19:50:02
+Done. Elapsed time = 1.24953389168
+Starting. Current time = 2023-05-06-20:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-06-20:00:03
+Done. Elapsed time = 1.25641798973
+Starting. Current time = 2023-05-06-20:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-06-20:10:03
+Done. Elapsed time = 1.26078701019
+Starting. Current time = 2023-05-06-20:20:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-06-20:20:03
+Done. Elapsed time = 1.24746394157
+Starting. Current time = 2023-05-06-20:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-06-20:30:02
+Done. Elapsed time = 1.25132703781
+Starting. Current time = 2023-05-06-20:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-06-20:40:02
+Done. Elapsed time = 1.24957704544
+Starting. Current time = 2023-05-06-20:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-06-20:50:02
+Done. Elapsed time = 1.24063706398
+Starting. Current time = 2023-05-06-21:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-06-21:00:03
+Done. Elapsed time = 1.24779701233
+Starting. Current time = 2023-05-06-21:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.18, Temp_B = -99.97
+
+Current time = 2023-05-06-21:10:03
+Done. Elapsed time = 1.25841712952
+Starting. Current time = 2023-05-06-21:20:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-06-21:20:03
+Done. Elapsed time = 1.25171089172
+Starting. Current time = 2023-05-06-21:30:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.18, Temp_B = -99.97
+
+Current time = 2023-05-06-21:30:03
+Done. Elapsed time = 1.25350594521
+Starting. Current time = 2023-05-06-21:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.17, Temp_B = -99.97
+
+Current time = 2023-05-06-21:40:02
+Done. Elapsed time = 1.2441649437
+Starting. Current time = 2023-05-06-21:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.17, Temp_B = -99.97
+
+Current time = 2023-05-06-21:50:02
+Done. Elapsed time = 1.25217795372
+Starting. Current time = 2023-05-06-22:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.17, Temp_B = -99.97
+
+Current time = 2023-05-06-22:00:02
+Done. Elapsed time = 1.24803709984
+Starting. Current time = 2023-05-06-22:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.17, Temp_B = -99.97
+
+Current time = 2023-05-06-22:10:03
+Done. Elapsed time = 1.25361204147
+Starting. Current time = 2023-05-06-22:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.17, Temp_B = -99.97
+
+Current time = 2023-05-06-22:20:03
+Done. Elapsed time = 1.25079321861
+Starting. Current time = 2023-05-06-22:30:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.17, Temp_B = -99.97
+
+Current time = 2023-05-06-22:30:03
+Done. Elapsed time = 1.25711107254
+Starting. Current time = 2023-05-06-22:40:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.16, Temp_B = -99.97
+
+Current time = 2023-05-06-22:40:03
+Done. Elapsed time = 1.26301813126
+Starting. Current time = 2023-05-06-22:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.16, Temp_B = -99.97
+
+Current time = 2023-05-06-22:50:02
+Done. Elapsed time = 1.24760913849
+Starting. Current time = 2023-05-06-23:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.16, Temp_B = -99.97
+
+Current time = 2023-05-06-23:00:02
+Done. Elapsed time = 1.27086210251
+Starting. Current time = 2023-05-06-23:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.15, Temp_B = -99.97
+
+Current time = 2023-05-06-23:10:02
+Done. Elapsed time = 1.25094389915
+Starting. Current time = 2023-05-06-23:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.15, Temp_B = -99.97
+
+Current time = 2023-05-06-23:20:03
+Done. Elapsed time = 1.25061392784
+Starting. Current time = 2023-05-06-23:30:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.15, Temp_B = -99.97
+
+Current time = 2023-05-06-23:30:03
+Done. Elapsed time = 1.24808692932
+Starting. Current time = 2023-05-06-23:40:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.14, Temp_B = -99.97
+
+Current time = 2023-05-06-23:40:03
+Done. Elapsed time = 1.24427914619
+Starting. Current time = 2023-05-06-23:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.14, Temp_B = -99.97
+
+Current time = 2023-05-06-23:50:02
+Done. Elapsed time = 1.25806117058
+Starting. Current time = 2023-05-07-00:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.13, Temp_B = -99.97
+
+Current time = 2023-05-07-00:00:02
+Done. Elapsed time = 1.24542617798
+Starting. Current time = 2023-05-07-00:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.12, Temp_B = -99.97
+
+Current time = 2023-05-07-00:10:03
+Done. Elapsed time = 1.2537021637
+Starting. Current time = 2023-05-07-00:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.12, Temp_B = -99.97
+
+Current time = 2023-05-07-00:20:03
+Done. Elapsed time = 1.25063300133
+Starting. Current time = 2023-05-07-00:30:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.12, Temp_B = -99.97
+
+Current time = 2023-05-07-00:30:03
+Done. Elapsed time = 1.2309191227
+Starting. Current time = 2023-05-07-00:40:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-07-00:40:03
+Done. Elapsed time = 1.25169801712
+Starting. Current time = 2023-05-07-00:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-07-00:50:02
+Done. Elapsed time = 1.24376392365
+Starting. Current time = 2023-05-07-01:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-07-01:00:02
+Done. Elapsed time = 1.24930882454
+Starting. Current time = 2023-05-07-01:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-07-01:10:02
+Done. Elapsed time = 1.23091292381
+Starting. Current time = 2023-05-07-01:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-07-01:20:03
+Done. Elapsed time = 1.24949097633
+Starting. Current time = 2023-05-07-01:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-07-01:30:03
+Done. Elapsed time = 1.24247097969
+Starting. Current time = 2023-05-07-01:40:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-07-01:40:03
+Done. Elapsed time = 1.23841500282
+Starting. Current time = 2023-05-07-01:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.09, Temp_B = -99.97
+
+Current time = 2023-05-07-01:50:02
+Done. Elapsed time = 1.24950098991
+Starting. Current time = 2023-05-07-02:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.09, Temp_B = -99.97
+
+Current time = 2023-05-07-02:00:02
+Done. Elapsed time = 1.26580691338
+Starting. Current time = 2023-05-07-02:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.09, Temp_B = -99.97
+
+Current time = 2023-05-07-02:10:02
+Done. Elapsed time = 1.24714398384
+Starting. Current time = 2023-05-07-02:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.09, Temp_B = -99.97
+
+Current time = 2023-05-07-02:20:02
+Done. Elapsed time = 1.25136303902
+Starting. Current time = 2023-05-07-02:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-07-02:30:03
+Done. Elapsed time = 1.25357985497
+Starting. Current time = 2023-05-07-02:40:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-07-02:40:03
+Done. Elapsed time = 1.2487988472
+Starting. Current time = 2023-05-07-02:50:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-07-02:50:03
+Done. Elapsed time = 1.24262404442
+Starting. Current time = 2023-05-07-03:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-07-03:00:02
+Done. Elapsed time = 1.24373006821
+Starting. Current time = 2023-05-07-03:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-07-03:10:02
+Done. Elapsed time = 1.25761508942
+Starting. Current time = 2023-05-07-03:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-07-03:20:02
+Done. Elapsed time = 1.2379629612
+Starting. Current time = 2023-05-07-03:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-07-03:30:03
+Done. Elapsed time = 1.25867819786
+Starting. Current time = 2023-05-07-03:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-07-03:40:03
+Done. Elapsed time = 1.26193594933
+Starting. Current time = 2023-05-07-03:50:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-07-03:50:03
+Done. Elapsed time = 1.24733614922
+Starting. Current time = 2023-05-07-04:00:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.09, Temp_B = -99.97
+
+Current time = 2023-05-07-04:00:03
+Done. Elapsed time = 1.24500799179
+Starting. Current time = 2023-05-07-04:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.08, Temp_B = -99.97
+
+Current time = 2023-05-07-04:10:02
+Done. Elapsed time = 1.24813985825
+Starting. Current time = 2023-05-07-04:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.07, Temp_B = -99.97
+
+Current time = 2023-05-07-04:20:02
+Done. Elapsed time = 1.25110197067
+Starting. Current time = 2023-05-07-04:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.07, Temp_B = -99.97
+
+Current time = 2023-05-07-04:30:02
+Done. Elapsed time = 1.2452609539
+Starting. Current time = 2023-05-07-04:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.06, Temp_B = -99.97
+
+Current time = 2023-05-07-04:40:03
+Done. Elapsed time = 1.24727988243
+Starting. Current time = 2023-05-07-04:50:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.99, Temp_B = -99.97
+
+Successfully initiated Cryostat fill at 2023-05-07-04:50:05
+Terminated fill loop. Elapsed = 114.848778, Overflow temp = -22.003800, Valve state = Open
+
+Successfully terminated Cryostat fill at 2023-05-07-04:52:02
+Current time = 2023-05-07-04:52:03
+Done. Elapsed time = 121.096551895
+Starting. Current time = 2023-05-07-05:00:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.25, Temp_B = -99.97
+
+Current time = 2023-05-07-05:00:03
+Done. Elapsed time = 1.24828505516
+Starting. Current time = 2023-05-07-05:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-07-05:10:02
+Done. Elapsed time = 1.26002407074
+Starting. Current time = 2023-05-07-05:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-07-05:20:02
+Done. Elapsed time = 1.26749300957
+Starting. Current time = 2023-05-07-05:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-07-05:30:02
+Done. Elapsed time = 1.25472998619
+Starting. Current time = 2023-05-07-05:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-07-05:40:03
+Done. Elapsed time = 1.25043916702
+Starting. Current time = 2023-05-07-05:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-07-05:50:03
+Done. Elapsed time = 1.26085090637
+Starting. Current time = 2023-05-07-06:00:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-07-06:00:03
+Done. Elapsed time = 1.25966286659
+Starting. Current time = 2023-05-07-06:10:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-07-06:10:03
+Done. Elapsed time = 1.25559902191
+Starting. Current time = 2023-05-07-06:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-07-06:20:02
+Done. Elapsed time = 1.25063586235
+Starting. Current time = 2023-05-07-06:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-07-06:30:02
+Done. Elapsed time = 1.26981687546
+Starting. Current time = 2023-05-07-06:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-07-06:40:02
+Done. Elapsed time = 1.26416397095
+Starting. Current time = 2023-05-07-06:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.24, Temp_B = -99.97
+
+Current time = 2023-05-07-06:50:03
+Done. Elapsed time = 1.25168895721
+Starting. Current time = 2023-05-07-07:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-07-07:00:03
+Done. Elapsed time = 1.25800800323
+Starting. Current time = 2023-05-07-07:10:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-07-07:10:03
+Done. Elapsed time = 1.25365805626
+Starting. Current time = 2023-05-07-07:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-07-07:20:02
+Done. Elapsed time = 1.25732183456
+Starting. Current time = 2023-05-07-07:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-07-07:30:02
+Done. Elapsed time = 1.25881099701
+Starting. Current time = 2023-05-07-07:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-07-07:40:02
+Done. Elapsed time = 1.24754405022
+Starting. Current time = 2023-05-07-07:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-07-07:50:03
+Done. Elapsed time = 1.27347803116
+Starting. Current time = 2023-05-07-08:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-07-08:00:03
+Done. Elapsed time = 1.25660395622
+Starting. Current time = 2023-05-07-08:10:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-07-08:10:03
+Done. Elapsed time = 1.25878190994
+Starting. Current time = 2023-05-07-08:20:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-07-08:20:03
+Done. Elapsed time = 1.26387214661
+Starting. Current time = 2023-05-07-08:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-07-08:30:02
+Done. Elapsed time = 1.24922990799
+Starting. Current time = 2023-05-07-08:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-07-08:40:02
+Done. Elapsed time = 1.25250101089
+Starting. Current time = 2023-05-07-08:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-07-08:50:02
+Done. Elapsed time = 1.25980997086
+Starting. Current time = 2023-05-07-09:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-07-09:00:03
+Done. Elapsed time = 1.26322197914
+Starting. Current time = 2023-05-07-09:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-07-09:10:03
+Done. Elapsed time = 1.24332785606
+Starting. Current time = 2023-05-07-09:20:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-07-09:20:03
+Done. Elapsed time = 1.25062203407
+Starting. Current time = 2023-05-07-09:30:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-07-09:30:03
+Done. Elapsed time = 1.26400494576
+Starting. Current time = 2023-05-07-09:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-07-09:40:02
+Done. Elapsed time = 1.26588988304
+Starting. Current time = 2023-05-07-09:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-07-09:50:02
+Done. Elapsed time = 1.26463484764
+Starting. Current time = 2023-05-07-10:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-07-10:00:02
+Done. Elapsed time = 1.2623128891
+Starting. Current time = 2023-05-07-10:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-07-10:10:03
+Done. Elapsed time = 1.28463101387
+Starting. Current time = 2023-05-07-10:20:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-07-10:20:03
+Done. Elapsed time = 1.27146291733
+Starting. Current time = 2023-05-07-10:30:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-07-10:30:03
+Done. Elapsed time = 1.25317907333
+Starting. Current time = 2023-05-07-10:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-07-10:40:02
+Done. Elapsed time = 1.25298118591
+Starting. Current time = 2023-05-07-10:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-07-10:50:02
+Done. Elapsed time = 1.26388311386
+Starting. Current time = 2023-05-07-11:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-07-11:00:02
+Done. Elapsed time = 1.25981688499
+Starting. Current time = 2023-05-07-11:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-07-11:10:03
+Done. Elapsed time = 1.31612992287
+Starting. Current time = 2023-05-07-11:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-07-11:20:03
+Done. Elapsed time = 1.26194000244
+Starting. Current time = 2023-05-07-11:30:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-07-11:30:03
+Done. Elapsed time = 1.26228284836
+Starting. Current time = 2023-05-07-11:40:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-07-11:40:03
+Done. Elapsed time = 1.25558400154
+Starting. Current time = 2023-05-07-11:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-07-11:50:02
+Done. Elapsed time = 1.25156378746
+Starting. Current time = 2023-05-07-12:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.18, Temp_B = -99.97
+
+Current time = 2023-05-07-12:00:02
+Done. Elapsed time = 1.25943398476
+Starting. Current time = 2023-05-07-12:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-07-12:10:02
+Done. Elapsed time = 1.25344014168
+Starting. Current time = 2023-05-07-12:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.18, Temp_B = -99.97
+
+Current time = 2023-05-07-12:20:03
+Done. Elapsed time = 1.25647616386
+Starting. Current time = 2023-05-07-12:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.18, Temp_B = -99.97
+
+Current time = 2023-05-07-12:30:03
+Done. Elapsed time = 1.26528692245
+Starting. Current time = 2023-05-07-12:40:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.18, Temp_B = -99.97
+
+Current time = 2023-05-07-12:40:03
+Done. Elapsed time = 1.25596308708
+Starting. Current time = 2023-05-07-12:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.18, Temp_B = -99.97
+
+Current time = 2023-05-07-12:50:02
+Done. Elapsed time = 1.25409388542
+Starting. Current time = 2023-05-07-13:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.18, Temp_B = -99.97
+
+Current time = 2023-05-07-13:00:02
+Done. Elapsed time = 1.29814696312
+Starting. Current time = 2023-05-07-13:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.18, Temp_B = -99.97
+
+Current time = 2023-05-07-13:10:02
+Done. Elapsed time = 1.25913190842
+Starting. Current time = 2023-05-07-13:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.17, Temp_B = -99.97
+
+Current time = 2023-05-07-13:20:03
+Done. Elapsed time = 1.25885105133
+Starting. Current time = 2023-05-07-13:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.18, Temp_B = -99.97
+
+Current time = 2023-05-07-13:30:03
+Done. Elapsed time = 1.25557112694
+Starting. Current time = 2023-05-07-13:40:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.17, Temp_B = -99.97
+
+Current time = 2023-05-07-13:40:03
+Done. Elapsed time = 1.25590014458
+Starting. Current time = 2023-05-07-13:50:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.17, Temp_B = -99.97
+
+Current time = 2023-05-07-13:50:03
+Done. Elapsed time = 1.26243901253
+Starting. Current time = 2023-05-07-14:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.17, Temp_B = -99.97
+
+Current time = 2023-05-07-14:00:02
+Done. Elapsed time = 1.25412487984
+Starting. Current time = 2023-05-07-14:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.17, Temp_B = -99.97
+
+Current time = 2023-05-07-14:10:02
+Done. Elapsed time = 1.27918100357
+Starting. Current time = 2023-05-07-14:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.17, Temp_B = -99.97
+
+Current time = 2023-05-07-14:20:02
+Done. Elapsed time = 1.25736093521
+Starting. Current time = 2023-05-07-14:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.17, Temp_B = -99.97
+
+Current time = 2023-05-07-14:30:03
+Done. Elapsed time = 1.2590110302
+Starting. Current time = 2023-05-07-14:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.16, Temp_B = -99.97
+
+Current time = 2023-05-07-14:40:03
+Done. Elapsed time = 1.26027107239
+Starting. Current time = 2023-05-07-14:50:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.17, Temp_B = -99.97
+
+Current time = 2023-05-07-14:50:03
+Done. Elapsed time = 1.26211595535
+Starting. Current time = 2023-05-07-15:00:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.16, Temp_B = -99.97
+
+Current time = 2023-05-07-15:00:03
+Done. Elapsed time = 1.26076889038
+Starting. Current time = 2023-05-07-15:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.16, Temp_B = -99.97
+
+Current time = 2023-05-07-15:10:02
+Done. Elapsed time = 1.25853204727
+Starting. Current time = 2023-05-07-15:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.16, Temp_B = -99.97
+
+Current time = 2023-05-07-15:20:02
+Done. Elapsed time = 1.27365398407
+Starting. Current time = 2023-05-07-15:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.16, Temp_B = -99.97
+
+Current time = 2023-05-07-15:30:02
+Done. Elapsed time = 1.25996994972
+Starting. Current time = 2023-05-07-15:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.16, Temp_B = -99.97
+
+Current time = 2023-05-07-15:40:03
+Done. Elapsed time = 1.23866391182
+Starting. Current time = 2023-05-07-15:50:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.16, Temp_B = -99.97
+
+Current time = 2023-05-07-15:50:03
+Done. Elapsed time = 1.25665783882
+Starting. Current time = 2023-05-07-16:00:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.16, Temp_B = -99.97
+
+Current time = 2023-05-07-16:00:03
+Done. Elapsed time = 1.26579213142
+Starting. Current time = 2023-05-07-16:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.16, Temp_B = -99.97
+
+Current time = 2023-05-07-16:10:02
+Done. Elapsed time = 1.27465200424
+Starting. Current time = 2023-05-07-16:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.15, Temp_B = -99.97
+
+Current time = 2023-05-07-16:20:02
+Done. Elapsed time = 1.23983383179
+Starting. Current time = 2023-05-07-16:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.15, Temp_B = -99.97
+
+Current time = 2023-05-07-16:30:02
+Done. Elapsed time = 1.26123905182
+Starting. Current time = 2023-05-07-16:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.15, Temp_B = -99.97
+
+Current time = 2023-05-07-16:40:03
+Done. Elapsed time = 1.26277589798
+Starting. Current time = 2023-05-07-16:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.14, Temp_B = -99.97
+
+Current time = 2023-05-07-16:50:03
+Done. Elapsed time = 1.26188921928
+Starting. Current time = 2023-05-07-17:00:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.14, Temp_B = -99.97
+
+Current time = 2023-05-07-17:00:03
+Done. Elapsed time = 1.25558710098
+Starting. Current time = 2023-05-07-17:10:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.14, Temp_B = -99.97
+
+Current time = 2023-05-07-17:10:03
+Done. Elapsed time = 1.23548984528
+Starting. Current time = 2023-05-07-17:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.14, Temp_B = -99.97
+
+Current time = 2023-05-07-17:20:02
+Done. Elapsed time = 1.26256084442
+Starting. Current time = 2023-05-07-17:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.13, Temp_B = -99.97
+
+Current time = 2023-05-07-17:30:02
+Done. Elapsed time = 1.25488305092
+Starting. Current time = 2023-05-07-17:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.12, Temp_B = -99.97
+
+Current time = 2023-05-07-17:40:02
+Done. Elapsed time = 1.25878095627
+Starting. Current time = 2023-05-07-17:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.12, Temp_B = -99.97
+
+Current time = 2023-05-07-17:50:03
+Done. Elapsed time = 1.25423002243
+Starting. Current time = 2023-05-07-18:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.13, Temp_B = -99.97
+
+Current time = 2023-05-07-18:00:03
+Done. Elapsed time = 1.2578728199
+Starting. Current time = 2023-05-07-18:10:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.12, Temp_B = -99.97
+
+Current time = 2023-05-07-18:10:03
+Done. Elapsed time = 1.26114296913
+Starting. Current time = 2023-05-07-18:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-07-18:20:02
+Done. Elapsed time = 1.25920200348
+Starting. Current time = 2023-05-07-18:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-07-18:30:02
+Done. Elapsed time = 1.25656509399
+Starting. Current time = 2023-05-07-18:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.12, Temp_B = -99.97
+
+Current time = 2023-05-07-18:40:02
+Done. Elapsed time = 1.26369309425
+Starting. Current time = 2023-05-07-18:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-07-18:50:02
+Done. Elapsed time = 1.23525094986
+Starting. Current time = 2023-05-07-19:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-07-19:00:03
+Done. Elapsed time = 1.2654709816
+Starting. Current time = 2023-05-07-19:10:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-07-19:10:03
+Done. Elapsed time = 1.26474380493
+Starting. Current time = 2023-05-07-19:20:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-07-19:20:03
+Done. Elapsed time = 1.25075387955
+Starting. Current time = 2023-05-07-19:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.09, Temp_B = -99.97
+
+Current time = 2023-05-07-19:30:02
+Done. Elapsed time = 1.2524600029
+Starting. Current time = 2023-05-07-19:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-07-19:40:02
+Done. Elapsed time = 1.26347494125
+Starting. Current time = 2023-05-07-19:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-07-19:50:02
+Done. Elapsed time = 1.26770877838
+Starting. Current time = 2023-05-07-20:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-07-20:00:03
+Done. Elapsed time = 1.26795816422
+Starting. Current time = 2023-05-07-20:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-07-20:10:03
+Done. Elapsed time = 1.26384282112
+Starting. Current time = 2023-05-07-20:20:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-07-20:20:03
+Done. Elapsed time = 1.26846003532
+Starting. Current time = 2023-05-07-20:30:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-07-20:30:03
+Done. Elapsed time = 1.276086092
+Starting. Current time = 2023-05-07-20:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-07-20:40:02
+Done. Elapsed time = 1.26299405098
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 120
+    while state0==True  
+                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 11, in <module>
+    import CryostatFill
+  File "/home/ccd/cryostat/Function_Files/CryostatFill.py", line 131
+    print("Successfully terminated Cryostat fill at "+ termtime.strftime("%Y-%m-%d-%H:%M:%S")+' after '+str(n)+' tries'))
+                                                                                                                        ^
+SyntaxError: invalid syntax
+Starting. Current time = 2023-05-08-09:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.28, Temp_B = -99.98
+
+Current time = 2023-05-08-09:10:03
+Done. Elapsed time = 1.27497196198
+Starting. Current time = 2023-05-08-09:20:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.25, Temp_B = -99.97
+
+Current time = 2023-05-08-09:20:03
+Done. Elapsed time = 1.27253985405
+Starting. Current time = 2023-05-08-09:30:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.23, Temp_B = -99.97
+
+Current time = 2023-05-08-09:30:03
+Done. Elapsed time = 1.26450991631
+Starting. Current time = 2023-05-08-09:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.24, Temp_B = -99.97
+
+Current time = 2023-05-08-09:40:02
+Done. Elapsed time = 1.26946902275
+Starting. Current time = 2023-05-08-09:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.24, Temp_B = -99.97
+
+Current time = 2023-05-08-09:50:02
+Done. Elapsed time = 1.27875208855
+Starting. Current time = 2023-05-08-10:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.24, Temp_B = -99.97
+
+Current time = 2023-05-08-10:00:02
+Done. Elapsed time = 1.31153392792
+Starting. Current time = 2023-05-08-10:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.24, Temp_B = -99.97
+
+Current time = 2023-05-08-10:10:03
+Done. Elapsed time = 1.27443981171
+Starting. Current time = 2023-05-08-10:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.24, Temp_B = -99.97
+
+Current time = 2023-05-08-10:20:03
+Done. Elapsed time = 1.2755188942
+Starting. Current time = 2023-05-08-10:30:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.25, Temp_B = -99.97
+
+Current time = 2023-05-08-10:30:03
+Done. Elapsed time = 1.27148389816
+Starting. Current time = 2023-05-08-10:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.25, Temp_B = -99.97
+
+Current time = 2023-05-08-10:40:02
+Done. Elapsed time = 1.27991700172
+Starting. Current time = 2023-05-08-10:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.26, Temp_B = -99.97
+
+Current time = 2023-05-08-10:50:02
+Done. Elapsed time = 1.28186607361
+Starting. Current time = 2023-05-08-11:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.26, Temp_B = -99.97
+
+Current time = 2023-05-08-11:00:02
+Done. Elapsed time = 1.27626991272
+Starting. Current time = 2023-05-08-11:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.26, Temp_B = -99.97
+
+Current time = 2023-05-08-11:10:02
+Done. Elapsed time = 1.2708029747
+Starting. Current time = 2023-05-08-11:20:01
+('Failed to initialize Lakeshore Serial Bus. Exception of type SerialException and args = \n', (16, "could not open port /dev/lakeshore_335: [Errno 16] Device or resource busy: '/dev/lakeshore_335'"))
+('No communication to Lakeshore Temp controller. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+('Failure in Temp read or Cryostat Fill. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+Error 2 in terminating Cryostat fill at 2023-05-08-11:20:02
+Phidget Exception 13: Given timeout has been exceeded.
+Current time = 2023-05-08-11:20:03
+Done. Elapsed time = 1.79385900497
+Starting. Current time = 2023-05-08-11:30:02
+('Failed to initialize Lakeshore Serial Bus. Exception of type SerialException and args = \n', (16, "could not open port /dev/lakeshore_335: [Errno 16] Device or resource busy: '/dev/lakeshore_335'"))
+('No communication to Lakeshore Temp controller. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+('Failure in Temp read or Cryostat Fill. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+Error 2 in terminating Cryostat fill at 2023-05-08-11:30:03
+Phidget Exception 13: Given timeout has been exceeded.
+Current time = 2023-05-08-11:30:03
+Done. Elapsed time = 1.78816795349
+Starting. Current time = 2023-05-08-11:40:02
+('Failed to initialize Lakeshore Serial Bus. Exception of type SerialException and args = \n', (16, "could not open port /dev/lakeshore_335: [Errno 16] Device or resource busy: '/dev/lakeshore_335'"))
+('No communication to Lakeshore Temp controller. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+('Failure in Temp read or Cryostat Fill. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+Error 2 in terminating Cryostat fill at 2023-05-08-11:40:03
+Phidget Exception 13: Given timeout has been exceeded.
+Current time = 2023-05-08-11:40:03
+Done. Elapsed time = 1.7690448761
+Starting. Current time = 2023-05-08-11:50:02
+('Failed to initialize Lakeshore Serial Bus. Exception of type SerialException and args = \n', (16, "could not open port /dev/lakeshore_335: [Errno 16] Device or resource busy: '/dev/lakeshore_335'"))
+('No communication to Lakeshore Temp controller. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+('Failure in Temp read or Cryostat Fill. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+Error 2 in terminating Cryostat fill at 2023-05-08-11:50:03
+Phidget Exception 13: Given timeout has been exceeded.
+Current time = 2023-05-08-11:50:03
+Done. Elapsed time = 1.78808689117
+Starting. Current time = 2023-05-08-12:00:01
+('Failed to initialize Lakeshore Serial Bus. Exception of type SerialException and args = \n', (16, "could not open port /dev/lakeshore_335: [Errno 16] Device or resource busy: '/dev/lakeshore_335'"))
+('No communication to Lakeshore Temp controller. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+('Failure in Temp read or Cryostat Fill. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+Error 2 in terminating Cryostat fill at 2023-05-08-12:00:02
+Phidget Exception 13: Given timeout has been exceeded.
+Current time = 2023-05-08-12:00:03
+Done. Elapsed time = 1.78500199318
+Starting. Current time = 2023-05-08-12:10:01
+('Failed to initialize Lakeshore Serial Bus. Exception of type SerialException and args = \n', (16, "could not open port /dev/lakeshore_335: [Errno 16] Device or resource busy: '/dev/lakeshore_335'"))
+('No communication to Lakeshore Temp controller. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+('Failure in Temp read or Cryostat Fill. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+Error 2 in terminating Cryostat fill at 2023-05-08-12:10:02
+Phidget Exception 13: Given timeout has been exceeded.
+Current time = 2023-05-08-12:10:03
+Done. Elapsed time = 1.79576301575
+Starting. Current time = 2023-05-08-12:20:01
+('Failed to initialize Lakeshore Serial Bus. Exception of type SerialException and args = \n', (16, "could not open port /dev/lakeshore_335: [Errno 16] Device or resource busy: '/dev/lakeshore_335'"))
+('No communication to Lakeshore Temp controller. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+('Failure in Temp read or Cryostat Fill. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+Error 2 in terminating Cryostat fill at 2023-05-08-12:20:02
+Phidget Exception 13: Given timeout has been exceeded.
+Current time = 2023-05-08-12:20:03
+Done. Elapsed time = 1.54034399986
+Starting. Current time = 2023-05-08-12:30:01
+('Failed to initialize Lakeshore Serial Bus. Exception of type SerialException and args = \n', (16, "could not open port /dev/lakeshore_335: [Errno 16] Device or resource busy: '/dev/lakeshore_335'"))
+('No communication to Lakeshore Temp controller. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+('Failure in Temp read or Cryostat Fill. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+Error 2 in terminating Cryostat fill at 2023-05-08-12:30:02
+Phidget Exception 13: Given timeout has been exceeded.
+Current time = 2023-05-08-12:30:03
+Done. Elapsed time = 1.79364895821
+Starting. Current time = 2023-05-08-12:40:01
+('Failed to initialize Lakeshore Serial Bus. Exception of type SerialException and args = \n', (16, "could not open port /dev/lakeshore_335: [Errno 16] Device or resource busy: '/dev/lakeshore_335'"))
+('No communication to Lakeshore Temp controller. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+('Failure in Temp read or Cryostat Fill. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+Error 2 in terminating Cryostat fill at 2023-05-08-12:40:02
+Phidget Exception 13: Given timeout has been exceeded.
+Current time = 2023-05-08-12:40:03
+Done. Elapsed time = 1.79676198959
+Starting. Current time = 2023-05-08-12:50:02
+('Failed to initialize Lakeshore Serial Bus. Exception of type SerialException and args = \n', (16, "could not open port /dev/lakeshore_335: [Errno 16] Device or resource busy: '/dev/lakeshore_335'"))
+('No communication to Lakeshore Temp controller. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+('Failure in Temp read or Cryostat Fill. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+Error 2 in terminating Cryostat fill at 2023-05-08-12:50:03
+Phidget Exception 13: Given timeout has been exceeded.
+Current time = 2023-05-08-12:50:03
+Done. Elapsed time = 1.83521199226
+Starting. Current time = 2023-05-08-13:00:02
+('Failed to initialize Lakeshore Serial Bus. Exception of type SerialException and args = \n', (16, "could not open port /dev/lakeshore_335: [Errno 16] Device or resource busy: '/dev/lakeshore_335'"))
+('No communication to Lakeshore Temp controller. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+('Failure in Temp read or Cryostat Fill. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+Error 2 in terminating Cryostat fill at 2023-05-08-13:00:03
+Phidget Exception 13: Given timeout has been exceeded.
+Current time = 2023-05-08-13:00:04
+Done. Elapsed time = 1.79144597054
+Starting. Current time = 2023-05-08-13:10:01
+('Failed to initialize Lakeshore Serial Bus. Exception of type SerialException and args = \n', (16, "could not open port /dev/lakeshore_335: [Errno 16] Device or resource busy: '/dev/lakeshore_335'"))
+('No communication to Lakeshore Temp controller. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+('Failure in Temp read or Cryostat Fill. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+Error 2 in terminating Cryostat fill at 2023-05-08-13:10:02
+Phidget Exception 13: Given timeout has been exceeded.
+Current time = 2023-05-08-13:10:02
+Done. Elapsed time = 1.560972929
+Starting. Current time = 2023-05-08-13:20:01
+('Failed to initialize Lakeshore Serial Bus. Exception of type SerialException and args = \n', (16, "could not open port /dev/lakeshore_335: [Errno 16] Device or resource busy: '/dev/lakeshore_335'"))
+('No communication to Lakeshore Temp controller. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+('Failure in Temp read or Cryostat Fill. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+Error 2 in terminating Cryostat fill at 2023-05-08-13:20:02
+Phidget Exception 13: Given timeout has been exceeded.
+Current time = 2023-05-08-13:20:03
+Done. Elapsed time = 1.54026889801
+Starting. Current time = 2023-05-08-13:30:01
+('Failed to initialize Lakeshore Serial Bus. Exception of type SerialException and args = \n', (16, "could not open port /dev/lakeshore_335: [Errno 16] Device or resource busy: '/dev/lakeshore_335'"))
+('No communication to Lakeshore Temp controller. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+('Failure in Temp read or Cryostat Fill. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+Error 2 in terminating Cryostat fill at 2023-05-08-13:30:02
+Phidget Exception 13: Given timeout has been exceeded.
+Current time = 2023-05-08-13:30:03
+Done. Elapsed time = 1.54017996788
+Starting. Current time = 2023-05-08-13:40:01
+('Failed to initialize Lakeshore Serial Bus. Exception of type SerialException and args = \n', (16, "could not open port /dev/lakeshore_335: [Errno 16] Device or resource busy: '/dev/lakeshore_335'"))
+('No communication to Lakeshore Temp controller. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+('Failure in Temp read or Cryostat Fill. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+Error 2 in terminating Cryostat fill at 2023-05-08-13:40:02
+Phidget Exception 13: Given timeout has been exceeded.
+Current time = 2023-05-08-13:40:03
+Done. Elapsed time = 1.54757618904
+Starting. Current time = 2023-05-08-13:50:01
+('Failed to initialize Lakeshore Serial Bus. Exception of type SerialException and args = \n', (16, "could not open port /dev/lakeshore_335: [Errno 16] Device or resource busy: '/dev/lakeshore_335'"))
+('No communication to Lakeshore Temp controller. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+('Failure in Temp read or Cryostat Fill. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+Error 2 in terminating Cryostat fill at 2023-05-08-13:50:02
+Phidget Exception 13: Given timeout has been exceeded.
+Current time = 2023-05-08-13:50:03
+Done. Elapsed time = 1.79073596001
+Starting. Current time = 2023-05-08-14:00:01
+('Failed to initialize Lakeshore Serial Bus. Exception of type SerialException and args = \n', (16, "could not open port /dev/ttyUSB1: [Errno 16] Device or resource busy: '/dev/ttyUSB1'"))
+('No communication to Lakeshore Temp controller. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+('Failure in Temp read or Cryostat Fill. Exception of type AttributeError and args = \n', ("'Lakeshore' object has no attribute 'ser'",))
+Error 2 in terminating Cryostat fill at 2023-05-08-14:00:02
+Phidget Exception 13: Given timeout has been exceeded.
+Current time = 2023-05-08-14:00:03
+Done. Elapsed time = 1.86501097679
+Starting. Current time = 2023-05-08-14:10:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.86
+
+Current time = 2023-05-08-14:10:03
+Done. Elapsed time = 1.27414083481
+Starting. Current time = 2023-05-08-14:20:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -100.04
+
+Current time = 2023-05-08-14:20:03
+Done. Elapsed time = 1.28077602386
+Starting. Current time = 2023-05-08-14:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.94
+
+Current time = 2023-05-08-14:30:02
+Done. Elapsed time = 1.26464915276
+Starting. Current time = 2023-05-08-14:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.98
+
+Current time = 2023-05-08-14:40:02
+Done. Elapsed time = 1.2724840641
+Starting. Current time = 2023-05-08-14:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.98
+
+Current time = 2023-05-08-14:50:02
+Done. Elapsed time = 1.28104496002
+Starting. Current time = 2023-05-08-15:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.95
+
+Current time = 2023-05-08-15:00:03
+Done. Elapsed time = 1.27277612686
+Starting. Current time = 2023-05-08-15:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.99
+
+Current time = 2023-05-08-15:10:03
+Done. Elapsed time = 1.26958298683
+Starting. Current time = 2023-05-08-15:20:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.95
+
+Current time = 2023-05-08-15:20:03
+Done. Elapsed time = 1.26497197151
+Starting. Current time = 2023-05-08-15:30:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.99
+
+Current time = 2023-05-08-15:30:03
+Done. Elapsed time = 1.28667497635
+Starting. Current time = 2023-05-08-15:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.96
+
+Current time = 2023-05-08-15:40:02
+Done. Elapsed time = 1.29202198982
+Starting. Current time = 2023-05-08-15:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.98
+
+Current time = 2023-05-08-15:50:02
+Done. Elapsed time = 1.27219414711
+Starting. Current time = 2023-05-08-16:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.96
+
+Current time = 2023-05-08-16:00:02
+Done. Elapsed time = 1.25855207443
+Starting. Current time = 2023-05-08-16:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.96
+
+Current time = 2023-05-08-16:10:03
+Done. Elapsed time = 1.26498317719
+Starting. Current time = 2023-05-08-16:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.99
+
+Current time = 2023-05-08-16:20:03
+Done. Elapsed time = 1.2700779438
+Starting. Current time = 2023-05-08-16:30:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.90
+
+Current time = 2023-05-08-16:30:03
+Done. Elapsed time = 1.26047110558
+Starting. Current time = 2023-05-08-16:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -100.07
+
+Current time = 2023-05-08-16:40:02
+Done. Elapsed time = 1.26817703247
+Starting. Current time = 2023-05-08-16:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.85
+
+Current time = 2023-05-08-16:50:02
+Done. Elapsed time = 1.27291107178
+Starting. Current time = 2023-05-08-17:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -100.08
+
+Current time = 2023-05-08-17:00:02
+Done. Elapsed time = 1.29266190529
+Starting. Current time = 2023-05-08-17:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.88
+
+Current time = 2023-05-08-17:10:02
+Done. Elapsed time = 1.27374696732
+Starting. Current time = 2023-05-08-17:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -100.04
+
+Current time = 2023-05-08-17:20:03
+Done. Elapsed time = 1.27045083046
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 61
+    fig.suptitle("Last Measurement: "+str(Time[-1]))
+      ^
+IndentationError: expected an indented block
+Traceback (most recent call last):
+  File "fill_cron.py", line 9, in <module>
+    import Plots
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 61
+    fig.suptitle("Last Measurement: "+str(Time[-1]))
+      ^
+IndentationError: expected an indented block
+Starting. Current time = 2023-05-08-17:50:01
+Cron Job still running. Quitting
+
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.95
+
+Traceback (most recent call last):
+  File "fill_cron.py", line 44, in <module>
+    Plots.MakeTemperaturePlot(TempTime, Temp_A, Temp_B, filltimes, filldurations, dewartimes)
+  File "/home/ccd/cryostat/Function_Files/Plots.py", line 61, in MakeTemperaturePlot
+    if (now-Time[-1]).minutes > datetime.timedelta(minutes=15):
+TypeError: unsupported operand type(s) for -: 'builtin_function_or_method' and 'datetime.datetime'
+Starting. Current time = 2023-05-08-18:00:01
+rm: cannot remove '/home/ccd/cryostat/Log_Files/CronStillRunning': No such file or directory
+('No communication to Lakeshore Temp controller. Exception of type SerialException and args = \n', ('device reports readiness to read but returned no data (device disconnected or multiple access on port?)',))
+Successfully initialized Lakeshore Serial Bus, Temp_A = 999.00, Temp_B = 999.00
+
+('No communication to Lakeshore Temp controller. Exception of type ValueError and args = \n', ("invalid literal for int() with base 10: '-0.0'",))
+Current time = 2023-05-08-18:00:05
+Done. Elapsed time = 3.87689995766
+Starting. Current time = 2023-05-08-18:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-08-18:10:05
+Done. Elapsed time = 3.82441782951
+Starting. Current time = 2023-05-08-18:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-08-18:20:05
+Done. Elapsed time = 3.92512488365
+Starting. Current time = 2023-05-08-18:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.98
+
+Current time = 2023-05-08-18:30:05
+Done. Elapsed time = 3.89476704597
+Starting. Current time = 2023-05-08-18:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-08-18:40:05
+Done. Elapsed time = 3.92574810982
+Starting. Current time = 2023-05-08-18:50:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-08-18:50:05
+Done. Elapsed time = 3.90808296204
+Starting. Current time = 2023-05-08-19:00:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-08-19:00:06
+Done. Elapsed time = 3.92273116112
+Starting. Current time = 2023-05-08-19:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.22, Temp_B = -99.97
+
+Current time = 2023-05-08-19:10:05
+Done. Elapsed time = 3.86391401291
+Starting. Current time = 2023-05-08-19:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-08-19:20:05
+Done. Elapsed time = 3.84472489357
+Starting. Current time = 2023-05-08-19:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-08-19:30:05
+Done. Elapsed time = 3.89081907272
+Starting. Current time = 2023-05-08-19:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.21, Temp_B = -99.97
+
+Current time = 2023-05-08-19:40:05
+Done. Elapsed time = 4.00254011154
+Starting. Current time = 2023-05-08-19:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-08-19:50:05
+Done. Elapsed time = 3.85696196556
+Starting. Current time = 2023-05-08-20:00:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-08-20:00:05
+Done. Elapsed time = 3.85817599297
+Starting. Current time = 2023-05-08-20:10:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-08-20:10:06
+Done. Elapsed time = 3.83212709427
+Starting. Current time = 2023-05-08-20:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.20, Temp_B = -99.97
+
+Current time = 2023-05-08-20:20:05
+Done. Elapsed time = 3.88258504868
+Starting. Current time = 2023-05-08-20:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-08-20:30:45
+Done. Elapsed time = 44.3914718628
+Starting. Current time = 2023-05-08-20:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.19, Temp_B = -99.97
+
+Current time = 2023-05-08-20:40:05
+Done. Elapsed time = 3.86858296394
+Starting. Current time = 2023-05-08-20:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.18, Temp_B = -99.97
+
+Current time = 2023-05-08-20:50:05
+Done. Elapsed time = 3.8998708725
+Starting. Current time = 2023-05-08-21:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.18, Temp_B = -99.97
+
+Current time = 2023-05-08-21:00:05
+Done. Elapsed time = 3.80337691307
+Starting. Current time = 2023-05-08-21:10:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.17, Temp_B = -99.97
+
+Current time = 2023-05-08-21:10:05
+Done. Elapsed time = 3.79891204834
+Starting. Current time = 2023-05-08-21:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.17, Temp_B = -99.97
+
+Current time = 2023-05-08-21:20:05
+Done. Elapsed time = 3.84545302391
+Starting. Current time = 2023-05-08-21:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.17, Temp_B = -99.97
+
+Current time = 2023-05-08-21:30:05
+Done. Elapsed time = 3.92573881149
+Starting. Current time = 2023-05-08-21:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.16, Temp_B = -99.97
+
+Current time = 2023-05-08-21:40:05
+Done. Elapsed time = 3.90827608109
+Starting. Current time = 2023-05-08-21:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.16, Temp_B = -99.97
+
+Current time = 2023-05-08-21:50:05
+Done. Elapsed time = 3.8890349865
+Starting. Current time = 2023-05-08-22:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.16, Temp_B = -99.97
+
+Current time = 2023-05-08-22:00:05
+Done. Elapsed time = 3.93686199188
+Starting. Current time = 2023-05-08-22:10:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.16, Temp_B = -99.97
+
+Current time = 2023-05-08-22:10:05
+Done. Elapsed time = 3.92107987404
+Starting. Current time = 2023-05-08-22:20:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.15, Temp_B = -99.97
+
+Current time = 2023-05-08-22:20:06
+Done. Elapsed time = 3.86947703362
+Starting. Current time = 2023-05-08-22:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.14, Temp_B = -99.97
+
+Current time = 2023-05-08-22:30:05
+Done. Elapsed time = 3.82462906837
+Starting. Current time = 2023-05-08-22:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.14, Temp_B = -99.97
+
+Current time = 2023-05-08-22:40:06
+Done. Elapsed time = 4.70057201385
+Starting. Current time = 2023-05-08-22:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.14, Temp_B = -99.97
+
+Current time = 2023-05-08-22:50:06
+Done. Elapsed time = 4.59037017822
+Starting. Current time = 2023-05-08-23:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.14, Temp_B = -99.97
+
+Current time = 2023-05-08-23:00:05
+Done. Elapsed time = 3.93491101265
+Starting. Current time = 2023-05-08-23:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.14, Temp_B = -99.97
+
+Current time = 2023-05-08-23:10:05
+Done. Elapsed time = 3.90025496483
+Starting. Current time = 2023-05-08-23:20:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.13, Temp_B = -99.97
+
+Current time = 2023-05-08-23:20:05
+Done. Elapsed time = 3.86454486847
+Starting. Current time = 2023-05-08-23:30:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.13, Temp_B = -99.97
+
+Current time = 2023-05-08-23:30:06
+Done. Elapsed time = 3.78510713577
+Starting. Current time = 2023-05-08-23:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.13, Temp_B = -99.97
+
+Current time = 2023-05-08-23:40:45
+Done. Elapsed time = 44.4764609337
+Starting. Current time = 2023-05-08-23:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.13, Temp_B = -99.97
+
+Current time = 2023-05-08-23:50:05
+Done. Elapsed time = 3.85615301132
+Starting. Current time = 2023-05-09-00:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.13, Temp_B = -99.97
+
+Current time = 2023-05-09-00:00:05
+Done. Elapsed time = 4.03410410881
+Starting. Current time = 2023-05-09-00:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.13, Temp_B = -99.97
+
+Current time = 2023-05-09-00:10:05
+Done. Elapsed time = 3.9238679409
+Starting. Current time = 2023-05-09-00:20:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.14, Temp_B = -99.97
+
+Current time = 2023-05-09-00:20:05
+Done. Elapsed time = 3.85685181618
+Starting. Current time = 2023-05-09-00:30:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.14, Temp_B = -99.97
+
+Current time = 2023-05-09-00:30:06
+Done. Elapsed time = 3.80269193649
+Starting. Current time = 2023-05-09-00:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.14, Temp_B = -99.97
+
+Current time = 2023-05-09-00:40:05
+Done. Elapsed time = 3.86608195305
+Starting. Current time = 2023-05-09-00:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.15, Temp_B = -99.97
+
+Current time = 2023-05-09-00:50:05
+Done. Elapsed time = 3.97026205063
+Starting. Current time = 2023-05-09-01:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.14, Temp_B = -99.97
+
+Current time = 2023-05-09-01:00:05
+Done. Elapsed time = 3.84011816978
+Starting. Current time = 2023-05-09-01:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.14, Temp_B = -99.97
+
+Current time = 2023-05-09-01:10:05
+Done. Elapsed time = 3.84274196625
+Starting. Current time = 2023-05-09-01:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.13, Temp_B = -99.97
+
+Current time = 2023-05-09-01:20:05
+Done. Elapsed time = 3.9179649353
+Starting. Current time = 2023-05-09-01:30:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.13, Temp_B = -99.97
+
+Current time = 2023-05-09-01:30:06
+Done. Elapsed time = 3.87256813049
+Starting. Current time = 2023-05-09-01:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.12, Temp_B = -99.97
+
+Current time = 2023-05-09-01:40:05
+Done. Elapsed time = 3.83134388924
+Starting. Current time = 2023-05-09-01:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.12, Temp_B = -99.97
+
+Current time = 2023-05-09-01:50:05
+Done. Elapsed time = 3.84746098518
+Starting. Current time = 2023-05-09-02:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-09-02:00:05
+Done. Elapsed time = 3.91511416435
+Starting. Current time = 2023-05-09-02:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.11, Temp_B = -99.97
+
+Current time = 2023-05-09-02:10:05
+Done. Elapsed time = 3.96054005623
+Starting. Current time = 2023-05-09-02:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.10, Temp_B = -99.97
+
+Current time = 2023-05-09-02:20:05
+Done. Elapsed time = 3.90895795822
+Starting. Current time = 2023-05-09-02:30:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.04, Temp_B = -99.97
+
+Current time = 2023-05-09-02:30:05
+Done. Elapsed time = 3.90142798424
+Starting. Current time = 2023-05-09-02:40:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.03, Temp_B = -99.97
+
+Current time = 2023-05-09-02:40:06
+Done. Elapsed time = 3.86305904388
+Starting. Current time = 2023-05-09-02:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.02, Temp_B = -99.97
+
+Current time = 2023-05-09-02:50:45
+Done. Elapsed time = 44.6580040455
+Starting. Current time = 2023-05-09-03:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.02, Temp_B = -99.97
+
+Current time = 2023-05-09-03:00:05
+Done. Elapsed time = 4.43719887733
+Starting. Current time = 2023-05-09-03:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.01, Temp_B = -99.97
+
+Current time = 2023-05-09-03:10:05
+Done. Elapsed time = 3.85979104042
+Starting. Current time = 2023-05-09-03:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.00, Temp_B = -99.97
+
+Current time = 2023-05-09-03:20:05
+Done. Elapsed time = 3.88466501236
+Starting. Current time = 2023-05-09-03:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -194.00, Temp_B = -99.97
+
+Current time = 2023-05-09-03:30:05
+Done. Elapsed time = 3.92279601097
+Starting. Current time = 2023-05-09-03:40:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.98, Temp_B = -99.97
+
+Current time = 2023-05-09-03:40:06
+Done. Elapsed time = 3.94086813927
+Starting. Current time = 2023-05-09-03:50:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.98, Temp_B = -99.97
+
+Current time = 2023-05-09-03:51:24
+Done. Elapsed time = 81.8717558384
+Starting. Current time = 2023-05-09-04:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.98, Temp_B = -99.97
+
+Current time = 2023-05-09-04:00:05
+Done. Elapsed time = 4.43141508102
+Starting. Current time = 2023-05-09-04:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.98, Temp_B = -99.97
+
+Current time = 2023-05-09-04:10:06
+Done. Elapsed time = 4.65048098564
+Starting. Current time = 2023-05-09-04:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.97, Temp_B = -99.97
+
+Current time = 2023-05-09-04:20:05
+Done. Elapsed time = 3.88549399376
+Starting. Current time = 2023-05-09-04:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.97, Temp_B = -99.97
+
+Current time = 2023-05-09-04:30:05
+Done. Elapsed time = 3.86520290375
+Starting. Current time = 2023-05-09-04:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.95, Temp_B = -99.97
+
+Current time = 2023-05-09-04:40:05
+Done. Elapsed time = 3.80485796928
+Starting. Current time = 2023-05-09-04:50:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.95, Temp_B = -99.97
+
+Current time = 2023-05-09-04:50:05
+Done. Elapsed time = 3.81573104858
+Starting. Current time = 2023-05-09-05:00:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.94, Temp_B = -99.97
+
+Current time = 2023-05-09-05:00:06
+Done. Elapsed time = 4.04098010063
+Starting. Current time = 2023-05-09-05:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.93, Temp_B = -99.97
+
+Current time = 2023-05-09-05:10:05
+Done. Elapsed time = 3.81212902069
+Starting. Current time = 2023-05-09-05:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.93, Temp_B = -99.97
+
+Current time = 2023-05-09-05:20:05
+Done. Elapsed time = 3.88174796104
+Starting. Current time = 2023-05-09-05:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.92, Temp_B = -99.97
+
+Current time = 2023-05-09-05:30:05
+Done. Elapsed time = 3.84389686584
+Starting. Current time = 2023-05-09-05:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.91, Temp_B = -99.97
+
+Current time = 2023-05-09-05:40:05
+Done. Elapsed time = 3.87310695648
+Starting. Current time = 2023-05-09-05:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.91, Temp_B = -99.97
+
+Current time = 2023-05-09-05:50:05
+Done. Elapsed time = 3.99710488319
+Starting. Current time = 2023-05-09-06:00:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.91, Temp_B = -99.97
+
+Current time = 2023-05-09-06:00:06
+Done. Elapsed time = 3.85075902939
+Starting. Current time = 2023-05-09-06:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.90, Temp_B = -99.97
+
+Current time = 2023-05-09-06:10:05
+Done. Elapsed time = 3.91055393219
+Starting. Current time = 2023-05-09-06:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.90, Temp_B = -99.97
+
+Current time = 2023-05-09-06:20:05
+Done. Elapsed time = 3.84784007072
+Starting. Current time = 2023-05-09-06:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.89, Temp_B = -99.97
+
+Current time = 2023-05-09-06:30:05
+Done. Elapsed time = 3.92067909241
+Starting. Current time = 2023-05-09-06:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.89, Temp_B = -99.97
+
+Current time = 2023-05-09-06:40:05
+Done. Elapsed time = 3.90620708466
+Starting. Current time = 2023-05-09-06:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.88, Temp_B = -99.97
+
+Current time = 2023-05-09-06:50:05
+Done. Elapsed time = 3.90700292587
+Starting. Current time = 2023-05-09-07:00:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.87, Temp_B = -99.97
+
+Current time = 2023-05-09-07:00:47
+Done. Elapsed time = 44.9737029076
+Starting. Current time = 2023-05-09-07:10:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.87, Temp_B = -99.97
+
+Current time = 2023-05-09-07:10:06
+Done. Elapsed time = 3.84962916374
+Starting. Current time = 2023-05-09-07:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.87, Temp_B = -99.97
+
+Current time = 2023-05-09-07:20:05
+Done. Elapsed time = 3.98591589928
+Starting. Current time = 2023-05-09-07:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.86, Temp_B = -99.97
+
+Current time = 2023-05-09-07:30:05
+Done. Elapsed time = 3.87184691429
+Starting. Current time = 2023-05-09-07:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.85, Temp_B = -99.97
+
+Current time = 2023-05-09-07:40:05
+Done. Elapsed time = 3.82149982452
+Starting. Current time = 2023-05-09-07:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.85, Temp_B = -99.97
+
+Current time = 2023-05-09-07:50:05
+Done. Elapsed time = 3.81655693054
+Starting. Current time = 2023-05-09-08:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.85, Temp_B = -99.97
+
+Current time = 2023-05-09-08:00:05
+Done. Elapsed time = 3.84159302711
+Starting. Current time = 2023-05-09-08:10:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.84, Temp_B = -99.97
+
+Current time = 2023-05-09-08:10:05
+Done. Elapsed time = 3.87976384163
+Starting. Current time = 2023-05-09-08:20:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.83, Temp_B = -99.97
+
+Current time = 2023-05-09-08:20:06
+Done. Elapsed time = 3.89854288101
+Starting. Current time = 2023-05-09-08:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.83, Temp_B = -99.97
+
+Current time = 2023-05-09-08:30:05
+Done. Elapsed time = 3.89287185669
+Starting. Current time = 2023-05-09-08:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.83, Temp_B = -99.97
+
+Current time = 2023-05-09-08:40:05
+Done. Elapsed time = 3.88836288452
+Starting. Current time = 2023-05-09-08:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.82, Temp_B = -99.97
+
+Current time = 2023-05-09-08:50:05
+Done. Elapsed time = 3.86051297188
+Starting. Current time = 2023-05-09-09:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.81, Temp_B = -99.97
+
+Current time = 2023-05-09-09:00:05
+Done. Elapsed time = 3.9628329277
+Starting. Current time = 2023-05-09-09:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.81, Temp_B = -99.97
+
+Current time = 2023-05-09-09:10:05
+Done. Elapsed time = 3.85953497887
+Starting. Current time = 2023-05-09-09:20:02
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.80, Temp_B = -99.97
+
+Current time = 2023-05-09-09:20:06
+Done. Elapsed time = 3.95687198639
+Starting. Current time = 2023-05-09-09:30:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.79, Temp_B = -99.97
+
+Current time = 2023-05-09-09:30:05
+Done. Elapsed time = 4.26921892166
+Starting. Current time = 2023-05-09-09:40:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.78, Temp_B = -99.97
+
+Error 1 in initiating Cryostat fill at 2023-05-09-09:40:04
+Successfully terminated Cryostat fill at 2023-05-09-09:40:06
+Current time = 2023-05-09-09:40:10
+Done. Elapsed time = 8.63033795357
+Starting. Current time = 2023-05-09-09:50:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.77, Temp_B = -99.97
+
+Error 1 in initiating Cryostat fill at 2023-05-09-09:50:04
+Successfully terminated Cryostat fill at 2023-05-09-09:50:06
+Current time = 2023-05-09-09:50:10
+Done. Elapsed time = 8.726323843
+Starting. Current time = 2023-05-09-10:00:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.77, Temp_B = -99.97
+
+Error 1 in initiating Cryostat fill at 2023-05-09-10:00:04
+Successfully terminated Cryostat fill at 2023-05-09-10:00:06
+Current time = 2023-05-09-10:00:10
+Done. Elapsed time = 8.6018550396
+Starting. Current time = 2023-05-09-10:10:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.77, Temp_B = -99.97
+
+Error 1 in initiating Cryostat fill at 2023-05-09-10:10:04
+Successfully terminated Cryostat fill at 2023-05-09-10:10:06
+Current time = 2023-05-09-10:10:10
+Done. Elapsed time = 8.57091498375
+Starting. Current time = 2023-05-09-10:20:01
+Successfully initialized Lakeshore Serial Bus, Temp_A = -193.77, Temp_B = -99.97
+
+Error 1 in initiating Cryostat fill at 2023-05-09-10:20:05
+Successfully terminated Cryostat fill at 2023-05-09-10:20:07
+Current time = 2023-05-09-10:20:10
+Done. Elapsed time = 8.60130405426
