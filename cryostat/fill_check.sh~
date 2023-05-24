@@ -1,4 +1,0 @@
-#!/bin/bash
-cd /home/cryostat
-python fill_cron.py 1>> fill.log 2>> fill.log&
-
