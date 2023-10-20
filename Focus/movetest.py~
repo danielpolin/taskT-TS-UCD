@@ -1,0 +1,23 @@
+import sys,time,subprocess
+sys.path.append('/home/ccd/ucd-scripts/python-lib')
+import Stage
+
+stage = Stage.Stage()
+
+#time.sleep(5)
+pos=stage.read_encoders()
+print(pos)
+x=-500
+y=19000
+z=None #20000
+pos=stage.move_stage(y=y)
+'''position=-0
+while position>-10000:
+    move=-200
+    pos=stage.move_stage(z=move)[2]
+    print(pos)
+    position+=move
+#pos=stage.go_to(x=x,y=y,z=z,focus=False)
+#pos=stage.go_to_exact(x=x,y=y,z=z)'''
+print(pos)
+
