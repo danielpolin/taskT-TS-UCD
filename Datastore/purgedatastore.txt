@@ -1,0 +1,2 @@
+connect davis
+purge raw PT1H
