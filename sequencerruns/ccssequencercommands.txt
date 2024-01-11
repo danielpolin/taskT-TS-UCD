@@ -1,0 +1,5 @@
+set target ucd-fp
+
+sequencerConfig change sequencer [E2V:FP_E2V_2s_ir2_v27_InvertCnt6000.seq,ITL:FP_ITL_2s_ir2_v27_InvertCnt6000.seq]
+
+printConfigurationParameters Sequencer
